@@ -1,0 +1,26 @@
+.btnStyle {
+    background-color: #db2777;
+    color: white;
+    border: none;
+}
+.btnStyle:hover{
+    background-color: #be185d;
+}
+.primary-btn:hover{
+    border: none;
+}
+.step {
+    background-color: db2777;
+    color: #db2777;
+}
+.wrapper{
+    background-color: #db2777;
+}
+.progress{
+    /* background-color: #db2777; */
+    
+    /* color: #db2777; */
+}
+.label{
+    background-color: #db2777;
+}

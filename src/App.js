@@ -5,6 +5,8 @@ import Products from './components/products/products';
 import Card from './components/Card';
 import Boxes from './components/products/Boxes';
 import Cart from './components/Cart';
+import PreveiwPanel from './pages/PreviewPanel';
+import View from './pages/View';
 
 function App() {
   return (
@@ -12,11 +14,13 @@ function App() {
           <Router>
               <Routes>
                   <Route path='/' element={<Home/>}/>
-                  <Route path='/boxes' element={<Boxes/>}/>
-                  <Route path='/products' element={<Products/>}/>
-                  <Route path='/cart' element={<Cart/>}/>
-                  <Route path='/product/:id' element={<Card/>}/>
-
+                  <Route path='/view' element={<View/>}/>
+                  {/* <Route path='/user' element={<PreveiwPanel/>}>
+                    <Route index element={<Boxes/>}/>
+                    <Route path='boxes' element={<Boxes/>}/>
+                    <Route path='products' element={<Products/>}/>
+                    <Route path='cart' element={<Cart/>}/>
+                  </Route> */}
               </Routes>
           </Router>
       </div>
